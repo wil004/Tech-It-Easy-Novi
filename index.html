@@ -1,10 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <title>Tech It Easy Dashboard</title>
 </head>
 <body>
+<div class="salesNumbers">
+    <div class="revenue">
+<h3>The total amount of tv sold</h3>
+<div id="tvSold"></div>
+    </div>
+
+    <div class="tvSales">
+        <h1>Tech-it-easy</h1>
+        <p>Het aantal tv's wat nog verkocht moet worden:</p>
+        <div id="tvStock"></div>
+    </div>
+
+    <div class="soldValue">
+        <h3>Total tv's bought in by tech it easy</h3>
+            <div id="tvBuyIn">
+            </div>
+        </div>
+</div>
+
+<div class="televisions">
+    <div class="flexbox">
+        <h2>Assortiment</h2>
+        <div class="printTelevisions">
+            <p id="printTelevisions"></p>
+        </div>
+    </div>
+
+
+    <div class="flexbox">
+        <h2>Sorteer de prijs!</h2>
+        <div class="sortedTelevisions">
+            <p id="sort"></p>
+            <button class="text" onclick="sortFunction()" >Sorteer de prijs!</button>
+        </div>
+    </div>
+
+    <div class="flexbox">
+            <h2>AmbiLight!</h2>
+        <div class="ambilight">
+            <p id="ambilight"></p>
+            <button class="text" onclick="ambiLightFunction()">Tv's met ambilight</button>
+        </div>
+    </div>
+    <div class="flexbox">
+        <h2>Sold Out!</h2>
+        <div class="soldOut">
+        <p id="soldOut"></p>
+        <button class="text" onclick="soldOutFunction()">Sold out televisions!</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="tvTypes1">
+    <div class="tvType0">
+        <div id="tvType0" >
+        </div>
+        <img src="tv.png" height="100" width="200"/>
+            <label for="tvSizeSelect0">Available sizes:</label>
+            <select name="tvSize" id="tvSizeSelect0">
+            </select>
+
+        </div>
+
+    <div class="tvType1">
+        <div id="tvType1" >
+        </div>
+
+        <img src="tv.png" height="100" width="200"/>
+            <label for="tvSizeSelect1">Available sizes:</label>
+            <select name="tvSize" id="tvSizeSelect1">
+            </select>
+
+    </div>
+
+    <div class="tvType2">
+        <div id="tvType2" >
+        </div>
+        <img src="tv.png" height="100" width="200"/>
+            <label for="tvSizeSelect2">Available sizes:</label>
+            <select name="tvSize" id="tvSizeSelect2">
+            </select>
+
+    </div>
+
+    <div class="tvType3">
+        <div id="tvType3" >
+        </div>
+        <img src="tv.png" height="100" width="200"/>
+            <label for="tvSizeSelect3">Available sizes:</label>
+            <select name="tvSize" id="tvSizeSelect3">
+            </select>
+
+    </div>
+</div>
+
+<div id="tvTypes2">
+        <div class="tvType4">
+            <div id="tvType4" >
+            </div>
+            <img src="tv.png" height="100" width="200"/>
+                <label for="tvSizeSelect4">Available sizes:</label>
+                <select name="tvSize" id="tvSizeSelect4">
+                </select>
+        </div>
+
+    <div class="tvType5">
+        <div id="tvType5" >
+        </div>
+        <img src="tv.png" height="100" width="200"/>
+            <label for="tvSizeSelect5">Available sizes:</label>
+            <select name="tvSize" id="tvSizeSelect5">
+            </select>
+    </div>
+
+    <div class="tvType6">
+        <div id="tvType6" >
+        </div>
+        <img src="tv.png" height="100" width="200"/>
+            <label for="tvSizeSelect6">Available sizes:</label>
+            <select name="tvSize" id="tvSizeSelect6">
+        </select>
+    </div>
+
+    <div class="tvType7">
+        <div id="tvType7" >
+        </div>
+        <img src="tv.png" height="100" width="200"/>
+            <label for="tvSizeSelect7">Available sizes:</label>
+            <select name="tvSize" id="tvSizeSelect7">
+            </select>
+        </div>
+    </div>
 
 </body>
+<script src="main.js" ></script>
 </html>
+
+
